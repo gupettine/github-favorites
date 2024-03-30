@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Favorites</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="src/main.js" type="module" defer></script>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1>GitHub Favorites</h1>
+            <div class="search">
+                <label class="sr-only" for="input-search">GitHub user</label>
+                <input id="input-search" type="text" placeholder="GitHub user">
+                <button><span>&star;</span> FAVORITE</button>
+            </div>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- <tr>
+                    <td class="user">
+                        <img src="https://github.com/gustavopettine.png" alt="Image by Gustavo Pettine">
+                        <a href="https://github.com/gustavopettine" target="_blank">
+                            <p>Gustavo Pettine</p>
+                            <span>gustavopettine</span>
+                        </a>
+                    </td>
+
+                    <td class="repositories">0</td>
+
+                    <td class="followers">0</td>
+
+                    <td>
+                        <button class="remove">Remove</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
